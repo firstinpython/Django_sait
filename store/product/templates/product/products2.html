@@ -1,0 +1,7 @@
+{% extends 'product/base.html' %}
+{% load static %}
+{% block content %}
+{% for el in products %}
+{{ el.name }}
+{% endfor %}
+{% endblock %}
